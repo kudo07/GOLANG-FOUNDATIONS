@@ -1,0 +1,79 @@
+# ──────────────────────────────
+# Go Build Artifacts
+# ──────────────────────────────
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build cache
+/build/
+bin/
+dist/
+
+# go test cache
+*.cov
+*.coverprofile
+*.coverage
+
+# ──────────────────────────────
+# Logs
+# ──────────────────────────────
+*.log
+
+# ──────────────────────────────
+# OS-generated files
+# ──────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ──────────────────────────────
+# IDE / Editor Files
+# ──────────────────────────────
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains Goland
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swx
+
+# Emacs
+*~
+
+# ──────────────────────────────
+# Go Modules (safe to keep)
+# Do NOT ignore go.mod and go.sum
+# ──────────────────────────────
+
+!go.mod
+!go.sum
+
+# ──────────────────────────────
+# Environment / config files
+# ──────────────────────────────
+.env
+.env.*
