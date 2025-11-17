@@ -9,4 +9,5 @@ func main() {
 	loops()
 	readcli()
 	cla()
+	process()
 }
