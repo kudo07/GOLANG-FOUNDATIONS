@@ -10,4 +10,5 @@ func main() {
 	readcli()
 	cla()
 	process()
+	goRoutines()
 }
