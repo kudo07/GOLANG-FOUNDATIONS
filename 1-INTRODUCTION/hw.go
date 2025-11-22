@@ -12,4 +12,5 @@ func main() {
 	process()
 	goRoutines()
 	which()
+	customLog()
 }
